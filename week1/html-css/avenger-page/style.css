@@ -1,0 +1,65 @@
+/* NAVBAR */
+
+.navbar {
+    position: relative;
+    border: 3px solid black;
+    background-color: palegoldenrod;
+}
+
+.navbar .logo {
+    padding-top: .9%;
+    padding-left: 3%;
+    padding-bottom: 2%;
+
+}
+
+.navbar .container {
+    position: absolute;
+    top: 10%;
+    right: 4%;
+}
+
+.navbar .tab {
+    display: inline;
+    padding: 10px;
+}
+
+.navbar .tab1 {
+    left: 300px;
+}
+
+/* PAGE */
+
+body, html{
+    height: 100%;
+    margin: 0;
+}
+.page{
+    margin-top: -25px;
+    background-image: url("https://images.hdqwalls.com/wallpapers/avengers-end-game-4k-banner-cb.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.page > .words {
+    text-align: left;
+    padding-left: 5%;
+    color: white;
+    position: absolute;
+    bottom: 30%;
+    /* border: 3px solid red; */
+    width: 50%;
+    
+}
+
+.heading {
+    font-size: 400%;
+}
+.par {
+    /* border: 3px solid yellow; */
+    width: 60%;
+    font-size: 15px;
+}
