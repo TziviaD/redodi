@@ -1,0 +1,267 @@
+body {
+    background-color: honeydew;
+}
+p {
+    color: red;
+}
+
+.lorem-p {
+    border: 1px solid black;
+    font-size: 30px;
+    width: 30%; 
+    /* to make block 50% of the page i need to put it width not border width
+    cause we are ajusting the content which is the smalles part from margin to padding to border to content */
+    /*try just text-align: justify; and you will see the words being spaced out 
+    so the words touch the border there is extra spaces between words
+    */
+    text-align: left;
+    padding: 20px;
+    text-indent: 50px;
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+#heading {
+    color: green;
+}
+
+/* .bullets {
+    background-image: url("data:image/jpeg;base64,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");
+    
+} */
+
+.bullets{
+    margin-top: 50px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: green;
+    width: 30%;
+    box-shadow: 5px 10px indianred;
+    background-color: ivory;
+    
+    
+    
+}
+
+.ul-design {
+    list-style-type: georgian;
+    
+}
+
+
+.shortcuts {
+    color: grey;
+}
+
+h1, h2 { /* grouping all of these will be effected */
+    font-size: 20px;
+}
+
+form {
+    margin-top: 20px;
+    margin-bottom: 100px;
+    margin-left: 10%;
+}
+
+.inline-li {
+    display: inline;
+}
+
+span {
+    display: block;
+    /* visibility: hidden */
+}
+
+.block {
+    height: 200px;
+    width: 200px;
+    background: blue;
+    margin-bottom: 50px;
+}
+
+.block1 {
+    height: 200px;
+    width: 200px;
+    background: blue;
+    display: block;
+}
+
+.block2 {
+    height: 200px;
+    width: 200px;
+    background: white;
+    display: block;
+}
+
+.block3 {
+    height: 200px;
+    width: 200px;
+    background: red;
+    display: block;
+}
+
+.inline1 {
+    height: 200px;
+    width: 200px;
+    background: blue;
+    display: inline;
+}
+
+.inline2 {
+    height: 200px;
+    width: 200px;
+    background: white;
+    display: inline;
+}
+
+.inline3 {
+    height: 200px;
+    width: 200px;
+    background: red;
+    display: inline;
+}
+
+
+.inline-block1 {
+    height: 200px;
+    width: 200px;
+    background: blue;
+    display: inline-block;
+}
+
+.inline-block2 {
+    height: 200px;
+    width: 200px;
+    background: white;
+    display: inline-block;
+}
+
+.inline-block3 {
+    height: 200px;
+    width: 200px;
+    background: red;
+    display: inline-block;
+}
+
+.static {
+    position: static;
+    border: 3px solid #73AD21;
+}
+
+
+.relative {
+    position: relative;
+    left: 30px;
+    border: 3px solid #73AD21;
+}
+
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 3px solid #73AD21;
+}
+
+
+div.relative2 {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+} 
+
+div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+.sticky {
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.exstension {
+    padding-bottom: 2000px; 
+}
+
+img {
+    position: relative;
+  top: -100px;
+      left: 100px;
+    
+    z-index: -1;
+  }
+
+.grey{
+    height: 100px;
+    width: 500px;
+    background: grey;
+    position: relative;
+    box-shadow: 0px 10px white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.blue{
+    height: 80px;
+    width: 100px;
+    background: lightblue;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.orange {
+    height: 80px;
+    width: 100px;
+    background-color: orange;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+
+.overflow-scroll {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: scroll;
+  }
+  
+  .overflow-hidden {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: hidden;
+  }
+  
+  .overflow-auto {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: auto;
+  }
+  
+  .overflow-visible {
+    background-color: lightblue;
+    width: 110px;
+    height: 110px;
+    overflow: visible;
+  }
+
+
