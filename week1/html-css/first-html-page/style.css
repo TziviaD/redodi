@@ -1,0 +1,23 @@
+.animal-romans {
+    list-style-type: upper-roman;
+}
+
+
+.char-and-behav {
+    text-align: center;
+}
+
+.box-char-behav {
+    position: relative;
+    width: auto;
+    height: 200px;
+}
+
+.chars {
+    position: absolute;
+}
+
+.behav {
+    position: absolute;
+    right: 0;
+}
